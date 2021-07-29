@@ -13,16 +13,23 @@
 # 4	    3   	[4,8,12]
 # -4	2	    [-4, -8]
 
+# def solution(x, n):
+#     answer = []
+#     tmp = x
+#     for i in range(n) :
+#         answer.append(x)
+#         x = x + tmp
+#     print(answer)
+#     return answer
+
 def solution(x, n):
     answer = []
-    tmp = x
     for i in range(n) :
-        answer.append(x)
-        x = x + tmp
+        answer.append(i * x + x)
     print(answer)
     return answer
 
-solution(-1,3)
+solution(-5,3)
 
 # def number_generator(x, n):
 #     # 함수를 완성하세요
