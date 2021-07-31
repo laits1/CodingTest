@@ -40,4 +40,4 @@ def solution(x):
         pass
     return answer
 
-solution(12)
+solution(10)
