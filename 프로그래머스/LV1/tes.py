@@ -1,11 +1,7 @@
-a = 15      # 1번
-b = 213     # 2번
-c = 3456
-
+a = [1,2,3,4]
 sum = 0
-
-nlist = [int(i) for i in str(b)] 
-
-for i in nlist :
+for i in a :
     sum += i
-print(sum) 
+
+ret = sum / len(a)
+print(ret)
