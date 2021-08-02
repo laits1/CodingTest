@@ -33,10 +33,11 @@ def solution(num):
         elif (num % 2 != 0) :
             num = num * 3 + 1
             answer += 1
+        
         if (answer >= 500) :
             answer = -1
             num = 1
-            
+
     print(answer)
     return answer
 
