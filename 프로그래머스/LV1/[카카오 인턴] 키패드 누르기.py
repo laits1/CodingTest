@@ -1,4 +1,5 @@
 # https://programmers.co.kr/learn/courses/30/lessons/67256
+# boj 1004
 
 def solution(numbers, hand):
     answer = ''
